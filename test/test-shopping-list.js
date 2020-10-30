@@ -117,7 +117,7 @@ describe('Shopping List', function() {
       .then(function(res) {
         res.should.have.status(200);
       });
-  });
+  }); 
 
   // test strategy:
   //  1. GET a shopping list items so we can get ID of one
