@@ -1,5 +1,5 @@
 language: node_js
-node_js: node
+node_js: - 7
 deploy:
   provider: heroku
    edge: true
@@ -8,4 +8,3 @@ deploy:
   app: nhttps://git.heroku.com/tranquil-savannah-81749.git
   on:
     repo: calysabean/node-shopping-list-integration-tests-10292020
- 
