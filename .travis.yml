@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: KmSIsLOUWJ4oRhAGkqbEAOLw/T1Q4C/mL+sztz3lo5BVQlJOu/9/g1gpTJfa+r/pFpHIard14e2d0k7vdzIh1xh800QWC83jKWUh6vjJNkeUgP6aeOjBbAuEdIlRyh40dEoCCi5I5Ih5e7iroJHHVSESrEmV43iREoJLuugfdR6oKEqbJeCuyIQ1G6BgxHSdGi90kve4Ek7P0ONYbVNh12jdAGsttXc7uKcdiCQKJX/XRTJgiSqghbI8RLrw9kgTPmWxZRrkhrE9J+YwQh24W04HEYbqrxhsVDW0NIHNMgnBTct9RpApoHzdklc67za+j3vxTkqgVKmLWi4Qlh6XgwGItctS7ZyQS6LTV0pv338nIr5ceaFga/x7vEoeGEe//eRjoCNUh9iY5yiFitCkFWYyj88SsBM+2q54jT0NTZLstxp9JCZ5PFQpJNydDV05UbdEHRSyqgRyoZJ/PD7nv7s2gl5vdEPhtM2b/yJa20xNAPxenHzz1NSrNaP0HFF6eMoHuDggbauOE1FeRby5uZtnntL4g/u4i/fWxFjlY5/N3xBvz+rN7FR43mM7QRF7L5cYfUtyMYP+SwEPnSoSrZyGpGq0QCTOH3rDHwCHcv9sTf9RLkGAiKLsyWtGWAXpcRja9txUbjO/aDpEh/zQJpNgLc25Q2uDUSsSTF6ApKI=
+  app: nhttps://git.heroku.com/tranquil-savannah-81749.git
+  on:
+    repo: calysabean/node-shopping-list-integration-tests-10292020
+  skip_cleanup: 'true'
