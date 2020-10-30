@@ -7,5 +7,4 @@ deploy:
   app: nhttps://git.heroku.com/tranquil-savannah-81749.git
   on:
     repo: calysabean/node-shopping-list-integration-tests-10292020
-  skip_cleanup: 'true'
   
